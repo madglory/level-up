@@ -1,0 +1,25 @@
+/*! GLOBAL STYLES */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	background-image: 
+}
+
+.logo {
+	background-image: url('../img/logo-lg.png');
+	background-repeat: none;
+	width: 300px;
+	height: 300px;
+}
+
+.button.signup {
+	background-color: #d9a233;
+	border-radius: 2px;
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-size: 1em;
+	text-transform: uppercase;
+}
