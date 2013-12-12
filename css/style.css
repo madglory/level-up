@@ -8,11 +8,14 @@ header {
 	background-image: 
 }
 
+.indent {
+	text-indent: -9999px;
+}
 .logo {
 	background-image: url('../img/logo-lg.png');
 	background-repeat: none;
-	width: 300px;
-	height: 300px;
+	width: 534px;
+	height: 317px;
 }
 
 .button.signup {
