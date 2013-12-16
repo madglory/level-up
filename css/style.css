@@ -4,8 +4,29 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 }
 
-header {
-	background-image: 
+h3 {
+	font-size: 1.750em;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 40px;
+}
+
+h5 {
+	color: #bb4c26;
+	font-weight: 600; 
+}
+
+h6 {
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.full-width { width: 100%; max-width: 100%; }
+
+.jumbotron {
+	background-image: url('../img/header-border.png');
+	background-repeat: repeat-x;
+	border-top: 1px solid #000;
 }
 
 .indent {
@@ -16,6 +37,7 @@ header {
 	background-repeat: none;
 	width: 534px;
 	height: 317px;
+	margin: 0 auto;
 }
 
 .button.signup {
@@ -25,4 +47,9 @@ header {
 	font-weight: 600;
 	font-size: 1em;
 	text-transform: uppercase;
+}
+
+.callout {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
 }
