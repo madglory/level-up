@@ -22,6 +22,7 @@ h6 {
 }
 
 .full-width { width: 100%; max-width: 100%; }
+.feed {min-height: 80px;}
 
 .jumbotron {
 	background-image: url('../img/header-border.png');
@@ -52,4 +53,15 @@ h6 {
 .callout {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
+	font-size: large;
+}
+
+div.signup {
+	background-image: url('../img/signup-bg.jpg');
+	background-position: center;
+	background-repeat: repeat-x;
+	border-color: #eaeaea;
+	min-height: 330px;
+	border-top: 1px solid #a7a5a6;;
+	border-bottom: 1px solid #a7a5a6;
 }
