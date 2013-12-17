@@ -12,18 +12,6 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
     <script src="js/modernizr.js"></script>
-    <script src="js/jquery.js"></script>
-    <script>
-      $(function(){
-        $.getJSON('https://alpha-api.app.net/stream/0/users/@levelupcon/posts', function(res) {
-          var posts = res.data;
-          
-          if(posts.length > 0){
-            status = $('.feed .status').html(posts[0].text);
-          }
-        });
-      });
-    </script>
   </head>
   <body>
     
@@ -107,6 +95,16 @@
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
+
+      $(function(){
+        $.getJSON('https://alpha-api.app.net/stream/0/users/@levelupcon/posts', function(res) {
+          var posts = res.data;
+          
+          if(posts.length > 0){
+            $('.feed .status').html(posts[0].text);
+          }
+        });
+      });
     </script>
   </body>
 </html>
