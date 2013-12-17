@@ -8,12 +8,13 @@ h3 {
 	font-size: 1.750em;
 	font-weight: 500;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 
 h5 {
 	color: #bb4c26;
-	font-weight: 600; 
+	font-weight: 600;
+	font-size: 1.250em;
 }
 
 h6 {
@@ -59,9 +60,87 @@ h6 {
 div.signup {
 	background-image: url('../img/signup-bg.jpg');
 	background-position: center;
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
+	background-color: #e8e8e7;
 	border-color: #eaeaea;
 	min-height: 330px;
 	border-top: 1px solid #a7a5a6;;
 	border-bottom: 1px solid #a7a5a6;
 }
+
+div.footer {
+	background-image: url('../img/footer-bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #000;
+	min-height: 330px;
+}
+
+.subfooter {
+	background-color: #000;
+	font-family: 'Raleway';
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #fff;
+	text-align: center;
+}
+
+.subfooter p {
+	margin-bottom: 0;
+	padding: 5px;
+}
+
+.subfooter a {
+	color: #e37c0d;
+	text-decoration: underline;
+}
+
+.subfooter a:hover {
+	color: #bb4c26;
+}
+
+div.address {
+	margin-top: 70px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+div.address p {
+	background-color: #eaeaea;
+	padding: 1.5em 0 2.5em 0;
+}
+
+div.address p span {
+	color: #bb4c26;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+div.address p span:hover {
+	color: #e37c0d;
+}
+
+.pinpoint {
+	margin-top: -2.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
