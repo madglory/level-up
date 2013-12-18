@@ -11,6 +11,12 @@ h3 {
 	margin-top: 60px;
 }
 
+h4 {
+	text-align: center;
+	font-weight: 500;
+	padding: 10px;
+}
+
 h5 {
 	color: #bb4c26;
 	font-weight: 600;
@@ -25,8 +31,19 @@ h6 {
 .full-width { width: 100%; max-width: 100%; }
 .feed {min-height: 80px;}
 
+.feed h6 {
+	background-image: url('../img/twitter-icon.png');
+	background-repeat: no-repeat;
+	padding-left: 45px;
+	padding-bottom: 4px;
+	margin-top: 26px;
+}
+
 .jumbotron {
-	background-image: url('../img/header-border.png');
+	background: 
+		url('../img/header-border.png') repeat-x,
+		url('../img/bg.jpg') repeat-x;
+
 	background-repeat: repeat-x;
 	border-top: 1px solid #000;
 }
@@ -36,10 +53,11 @@ h6 {
 }
 .logo {
 	background-image: url('../img/logo-lg.png');
-	background-repeat: none;
+	background-repeat: no-repeat;
 	width: 534px;
 	height: 317px;
 	margin: 0 auto;
+	margin-top: 30px;
 }
 
 .button.signup {
@@ -49,6 +67,30 @@ h6 {
 	font-weight: 600;
 	font-size: 1em;
 	text-transform: uppercase;
+}
+
+.large {width:100%;}
+
+.speakers {
+	background-image: url('../img/speaker-icon.png');
+	background-repeat: no-repeat;
+	padding-left: 65px;
+}
+
+.designers {
+	background-image: url('../img/design-icon.png');
+	background-repeat: no-repeat;
+	padding-left: 35px;
+}
+
+.developers {
+	background-image: url('../img/developer-icon.png');
+	background-repeat: no-repeat;
+	padding-left: 45px;
+}
+
+.alt {
+	background-color: #be5531 !important;
 }
 
 .callout {
@@ -66,6 +108,10 @@ div.signup {
 	min-height: 330px;
 	border-top: 1px solid #a7a5a6;;
 	border-bottom: 1px solid #a7a5a6;
+}
+
+.info {
+	margin-top: 90px;
 }
 
 div.footer {
