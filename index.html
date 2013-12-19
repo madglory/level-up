@@ -18,7 +18,7 @@
     <div class="full-width feed">
       <div class="row">
         <div class="large-12 columns header">
-          <h6>Twitter tweets go here.</h6>
+          <h6 class="status">Follow <a href="http://twitter.com/levelupcon">@levelupcon</a> on Twitter.</h6>
         </div>
       </div>
     </div>
@@ -122,6 +122,16 @@
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
+
+      $(function(){
+        $.getJSON('https://alpha-api.app.net/stream/0/users/@levelupcon/posts', function(res) {
+          var posts = res.data;
+          
+          if(posts.length > 0){
+            $('.feed .status').html(posts[0].text);
+          }
+        });
+      });
     </script>
   </body>
 </html>
