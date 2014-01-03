@@ -59,15 +59,13 @@ p.small {font-size: medium;}
 }
 
 .indent {
-	text-indent: -9999px;
+	display: none;
 }
+
 .logo {
-	background-image: url('../img/logo-lg.png');
-	background-repeat: no-repeat;
-	width: 534px;
-	height: 317px;
+	display: block;
 	margin: 0 auto;
-	margin-top: 30px;
+	padding-bottom: 50px;
 }
 
 input[type="text"] {
