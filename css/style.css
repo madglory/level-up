@@ -33,6 +33,9 @@ p {
 	font-size: large;
 }
 
+a {color: #c6761a;}
+a:hover {color: #eda620;}
+
 p.small {font-size: medium;}
 
 .full-width { width: 100%; max-width: 100%; }
@@ -67,9 +70,17 @@ p.small {font-size: medium;}
 	margin-top: 30px;
 }
 
+input[type="text"] {
+	border-radius: 3px;
+	padding: 1.5rem;
+	border-color: #666666;
+	font-size: large;
+	color: #8a8a8a;
+}
+
 .button.signup {
 	background-color: #d9a233;
-	border-radius: 2px;
+	border-radius: 3px;
 	font-family: 'Raleway';
 	font-weight: 600;
 	font-size: 1em;
