@@ -52,7 +52,7 @@ p.small {font-size: medium;}
 .jumbotron {
 	background: 
 		url('../img/header-border.png') repeat-x,
-		url('../img/bg.jpg') repeat-x;
+		url('../img/bg.png') repeat-x;
 
 	background-repeat: repeat-x;
 	border-top: 1px solid #000;
@@ -186,6 +186,15 @@ div.address p span:hover {
 	margin-top: -2.5em;
 }
 
+/*======= EVENT DETAILS ========/
+/==============================*/
+
+.date:hover {
+	opacity: .9;
+   	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+}
 
 
 
