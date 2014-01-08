@@ -177,7 +177,7 @@
           var posts = res.data;
           
           if(posts.length > 0){
-            $('.feed .status').html(posts[0].text);
+            $('.feed .status').html(posts[0].text + ' - <a href="http://twitter.com/levelupcon">@levelupcon</a>');
           }
         });
       });
