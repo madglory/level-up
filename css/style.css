@@ -33,14 +33,18 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: large;
 }
+
 p.lead {font-size: larger;}
 p.small {font-size: small;}
 a {color: #c6761a;}
 a:hover {color: #eda620;}
 
-
-
 .full-width { width: 100%; max-width: 100%; }
+.indent {display: none;}
+
+/*======= HEADER STYLES ========/
+/==============================*/
+
 .feed {min-height: 80px;}
 
 a.twitter img {
@@ -64,13 +68,8 @@ h6.status {
 	background: 
 		url('../img/header-border.png') repeat-x,
 		url('../img/bg.png') repeat-x;
-
 	background-repeat: repeat-x;
 	border-top: 1px solid #000;
-}
-
-.indent {
-	display: none;
 }
 
 .logo {
@@ -81,13 +80,8 @@ h6.status {
 	width: 50%;
 }
 
-input[type="text"] {
-	border-radius: 3px;
-	padding: 1.5rem;
-	border-color: #666666;
-	font-size: large;
-	color: #8a8a8a;
-}
+/*======= CONTENT STYLES ========/
+/==============================*/
 
 .callout {padding-top: 20px;}
 .button.signup {
@@ -144,6 +138,30 @@ div.signup {
 	margin-top: 90px;
 }
 
+/*======== FORM STYLES =========/
+/==============================*/
+
+input[type="text"] {
+	border-radius: 3px;
+	padding: 1.5rem;
+	border-color: #666666;
+	font-size: large;
+	color: #8a8a8a;
+}
+
+/*======= EVENT DETAILS ========/
+/==============================*/
+
+.date:hover {
+	opacity: .9;
+   	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+}
+
+/*======= FOOTER STYLES ========/
+/==============================*/
+
 div.footer {
 	background-image: url('../img/footer-bg.jpg');
 	background-position: center;
@@ -199,17 +217,6 @@ div.address p span:hover {
 .pinpoint {
 	margin-top: -2.5em;
 }
-
-/*======= EVENT DETAILS ========/
-/==============================*/
-
-.date:hover {
-	opacity: .9;
-   	transition: opacity .25s ease-in-out;
-   	-moz-transition: opacity .25s ease-in-out;
-   	-webkit-transition: opacity .25s ease-in-out;
-}
-
 
 /*======= MEDIA QUERIES ========/
 /==============================*/
