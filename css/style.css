@@ -1,4 +1,5 @@
-/*! GLOBAL STYLES */
+/*======= GLOBAL STYLES ========/
+/==============================*/
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
@@ -32,20 +33,30 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: large;
 }
-
+p.lead {font-size: larger;}
+p.small {font-size: small;}
 a {color: #c6761a;}
 a:hover {color: #eda620;}
 
-p.small {font-size: medium;}
+
 
 .full-width { width: 100%; max-width: 100%; }
 .feed {min-height: 80px;}
 
-.feed h6 {
-	background-image: url('../img/twitter-icon.png');
-	background-repeat: no-repeat;
-	padding-left: 45px;
-	padding-bottom: 4px;
+a.twitter img {
+	margin-top: 26px;
+	padding-right: 45px;
+	float: left;
+}
+
+a.twitter img:hover {
+	opacity: .9;
+   	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;	
+}
+
+h6.status {
 	margin-top: 26px;
 }
 
@@ -65,7 +76,9 @@ p.small {font-size: medium;}
 .logo {
 	display: block;
 	margin: 0 auto;
+	padding-top:30px;
 	padding-bottom: 50px;
+	width: 50%;
 }
 
 input[type="text"] {
@@ -76,6 +89,7 @@ input[type="text"] {
 	color: #8a8a8a;
 }
 
+.callout {padding-top: 20px;}
 .button.signup {
 	background-color: #d9a233;
 	border-radius: 3px;
@@ -116,9 +130,9 @@ input[type="text"] {
 }
 
 div.signup {
-	background-image: url('../img/signup-bg.jpg');
+	background-image: url('../img/bg.png');
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	background-color: #e8e8e7;
 	border-color: #eaeaea;
 	min-height: 330px;
@@ -197,12 +211,20 @@ div.address p span:hover {
 }
 
 
+/*======= MEDIA QUERIES ========/
+/==============================*/
 
+@media only screen and (max-width: 40em) { 
+	.logo {
+		width: 100%;
+	}
+}
 
-
-
-
-
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+	.logo {
+		width: 70%;
+	}
+}
 
 
 
