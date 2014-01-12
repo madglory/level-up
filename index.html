@@ -13,7 +13,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
     <script src="js/modernizr.js"></script>
   </head>
- 
+
 
   <body>
     <div class="full-width feed">
@@ -26,22 +26,22 @@
         </div>
       </div>
     </div>
-    
+
     <div class="jumbotron">
       <div class="row">
         <div class="large-12 columns">
       	  <div class="">
 	          <h3>Learn practical tech knowledge to bring home and show off.</h3>
 	          <h1 class="indent">Level Up</h1>
-            
+
             <!-- Responsive retina image media queries -->
 
-            <img data-interchange="[/img/logo-lg.png, (default)], [/img/logo-lg.png, (retina)]" class="logo" >
+            <img src="/img/logo-lg.png" data-interchange="[/img/logo-lg.png, (default)], [/img/logo-lg.png, (retina)]" class="logo" >
             <noscript><img src="/img/logo-lg.png"></noscript>
             <h4 class="indent">Creative Tech Conference 2014</h4>
             <h5 class="indent">In Association with MadGlory</h5>
             <div class="medium-4 medium-centered columns">
-              
+
               <!-- Sign up modal form -->
 
               <a href="#" data-reveal-id="firstModal" class="large button signup">Sign me the hell up</a>
@@ -52,7 +52,7 @@
                 <p>If you're interested in being a Speaker, you can <a>Apply Here.</a>
                 <br>If you're interested in Sponsoring, <a>Download a Press Kit.</a></p>
 
-                
+
                 <form method="post" action="https://madglory.wufoo.com/forms/zmhocgb1i2iamc/#public">
                   <input type="hidden" name="idstamp" id="idstamp" value="UBky4Yeg6JSt/YG4/zJz51sZD5sSAtyGr3+dw6IRBZo=" />
 
@@ -99,7 +99,7 @@
               <h5 class="developers">Sweat the Technique</h5>
               <h6>New School Development Trends</h6>
               <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>        
+            </div>
           </div>
       </div>
     </div>
@@ -117,7 +117,7 @@
               </a>
             </div>
             <div class="large-4 medium-4 columns">
-              
+
             </div>
             <div class="large-4 medium-4 columns">
               <div class="row">
@@ -145,7 +145,7 @@
                 <a href="#" class="tiny button signup right alt">Apply to Speak</a>
               </div>
             </div>
-          </div>  
+          </div>
         </div>
       </div>
     </div>
@@ -178,7 +178,7 @@
     </div>
 
   </div>
-    
+
     <script src="js/jquery.js"></script>
     <script src="js/foundation/foundation.js"></script>
     <script src="js/foundation/foundation.interchange.js"></script>
@@ -189,7 +189,7 @@
       $(function(){
         $.getJSON('https://alpha-api.app.net/stream/0/users/@levelupcon/posts', function(res) {
           var posts = res.data;
-          
+
           if(posts.length > 0){
             $('.feed .status').html(posts[0].text + ' - <a href="http://twitter.com/levelupcon">@levelupcon</a>');
           }
