@@ -13,7 +13,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
     <script src="js/modernizr.js"></script>
   </head>
- 
+
 
   <body>
     <div class="full-width feed">
@@ -26,22 +26,22 @@
         </div>
       </div>
     </div>
-    
+
     <div class="jumbotron">
       <div class="row">
         <div class="large-12 columns">
       	  <div class="">
 	          <h3>Learn practical tech knowledge to bring home and show off.</h3>
 	          <h1 class="indent">Level Up</h1>
-            
+
             <!-- Responsive retina image media queries -->
 
-            <img data-interchange="[../img/logo-lg.png, (default)], [../img/logo-lg.png, (retina)]" class="logo" >
-            <noscript><img src="../img/logo-lg.png"></noscript>
+            <img src="/img/logo-lg.png" data-interchange="[/img/logo-lg.png, (default)], [/img/logo-lg@2x.png, (retina)]" class="logo" >
+            <noscript><img src="/img/logo-lg.png"></noscript>
             <h4 class="indent">Creative Tech Conference 2014</h4>
             <h5 class="indent">In Association with MadGlory</h5>
             <div class="medium-4 medium-centered columns">
-              
+
               <!-- Sign up modal form -->
 
               <a href="#" data-reveal-id="firstModal" class="large button signup">Sign me the hell up</a>
@@ -52,7 +52,7 @@
                 <p>If you're interested in being a Speaker, you can <a>Apply Here.</a>
                 <br>If you're interested in Sponsoring, <a>Download a Press Kit.</a></p>
 
-                
+
                 <form method="post" action="https://madglory.wufoo.com/forms/zmhocgb1i2iamc/#public">
                   <input type="hidden" name="idstamp" id="idstamp" value="UBky4Yeg6JSt/YG4/zJz51sZD5sSAtyGr3+dw6IRBZo=" />
 
@@ -77,6 +77,9 @@
         </div>
       </div>
     </div>
+
+
+
     <br>
     <br>
     <div class="row">
@@ -84,22 +87,28 @@
         <p class="lead">Held at <a>Criterion Cinemas 11 &amp; BTX</a> in Saratoga Springs New York, <strong>Level Up</strong> is a creative tech conference that touches on the latest trends in web design &amp; development, with a focus on topics that are immediately applicable to your day job. You’ll be learning new things rather than rehashing what’s already out there. Efficiency level over 9,000.</p>
         <p>What to expect, when you're expecting:</p>
         <br>
+        <hr>
         <div class="row">
             <div class="large-4 medium-4 columns">
               <h5 class="speakers">Two Heads > Over</h5>
               <h6>Twice the speakers for your buck.</h6>
-              <p class="small">Rather than having all the focus on you, why not grab a friend? The ability to entertain two speakers at the same time allows for an interesting talk. Designers with Developers, two developers, two designers, or be a solo superstar – we're open to it all.</p>
+              <p class="medium">Rather than having all the focus on you, why not grab a friend? The ability to entertain two speakers at the same time allows for an interesting talk. Designers with Developers, two developers, two designers, or be a solo superstar – we're open to it all.</p>
             </div>
             <div class="large-4 medium-4 columns">
               <h5 class="designers">Designer Insight</h5>
               <h6>Not a photoshop 101 class.</h6>
-              <p class="small">Anyone can find tutorials on how to add drop shadows to text (please don't). What we're preaching here is a little deeper than that – developers and designers alike stand to learn a thing or two about process and secret designer things.</p>
+              <p class="medium">Anyone can find tutorials on how to add drop shadows to text (please don't). What we're preaching here is a little deeper than that – developers and designers alike stand to learn a thing or two about process and secret designer things.</p>
             </div>
             <div class="large-4 medium-4 columns">
               <h5 class="developers">Sweat the Technique</h5>
               <h6>New School Development Trends</h6>
-              <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<<<<<<< HEAD
+              <p class="medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>        
+=======
+              <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+>>>>>>> 656af33f5e3c1fa696be9a67037d2c02a220ea79
           </div>
       </div>
     </div>
@@ -117,7 +126,7 @@
               </a>
             </div>
             <div class="large-4 medium-4 columns">
-              
+
             </div>
             <div class="large-4 medium-4 columns">
               <div class="row">
@@ -145,7 +154,7 @@
                 <a href="#" class="tiny button signup right alt">Apply to Speak</a>
               </div>
             </div>
-          </div>  
+          </div>
         </div>
       </div>
     </div>
@@ -178,7 +187,7 @@
     </div>
 
   </div>
-    
+
     <script src="js/jquery.js"></script>
     <script src="js/foundation/foundation.js"></script>
     <script src="js/foundation/foundation.interchange.js"></script>
@@ -189,7 +198,7 @@
       $(function(){
         $.getJSON('https://alpha-api.app.net/stream/0/users/@levelupcon/posts', function(res) {
           var posts = res.data;
-          
+
           if(posts.length > 0){
             $('.feed .status').html(posts[0].text + ' - <a href="http://twitter.com/levelupcon">@levelupcon</a>');
           }

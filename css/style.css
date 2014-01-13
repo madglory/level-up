@@ -35,12 +35,13 @@ p {
 }
 
 p.lead {font-size: larger;}
-p.small {font-size: small;}
+p.medium {font-size: medium;margin-top: 20px;}
 a {color: #c6761a;}
 a:hover {color: #eda620;}
 
 .full-width { width: 100%; max-width: 100%; }
 .indent {display: none;}
+hr{margin: 2em;}
 
 /*======= HEADER STYLES ========/
 /==============================*/
