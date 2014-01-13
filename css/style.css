@@ -196,7 +196,6 @@ div.footer {
 
 div.address {
 	margin-top: 70px;
-	padding: 10px 0;
 	text-align: center;
 }
 
@@ -226,6 +225,11 @@ div.address p span:hover {
 	.logo {
 		width: 100%;
 	}
+	
+	h3 {
+		font-size: 1.2em;
+	}
+
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
