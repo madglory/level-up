@@ -6,8 +6,8 @@ X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 DTSTAMP:20140106T133710Z
 UID:info@levelupcon.com
-DTSTART;VALUE=DATE:20141015
-DTEND;VALUE=DATE:20141017
+DTSTART;VALUE=DATE:20141008
+DTEND;VALUE=DATE:20141009
 SUMMARY:Level Up Conference
 DESCRIPTION:Level Up is a creative tech conference that touches on the latest trends in web design & development\, with a focus on topics that are immediately applicable to your day job.
 LOCATION:CRITERION CINEMAS 11 & BTX 19 Railroad Place Saratoga Springs\, NY 12866
