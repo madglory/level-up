@@ -58,7 +58,7 @@ a.twitter img:hover {
 	opacity: .7;
    	transition: opacity .25s ease-in-out;
    	-moz-transition: opacity .25s ease-in-out;
-   	-webkit-transition: opacity .25s ease-in-out;	
+   	-webkit-transition: opacity .25s ease-in-out;
 }
 
 h6.status {
@@ -66,7 +66,7 @@ h6.status {
 }
 
 .jumbotron {
-	background: 
+	background:
 		url('../img/header-border.png') repeat-x,
 		url('../img/bg.png') repeat-x;
 	background-repeat: repeat-x;
@@ -201,7 +201,7 @@ div.address {
 
 div.address p {
 	background-color: #eaeaea;
-	padding: 1.5em 0 2.5em 0;
+	padding: 1.5em 0 2em 0;
 }
 
 div.address p span {
@@ -221,18 +221,18 @@ div.address p span:hover {
 /*======= MEDIA QUERIES ========/
 /==============================*/
 
-@media only screen and (max-width: 40em) { 
+@media only screen and (max-width: 40em) {
 	.logo {
 		width: 100%;
 	}
-	
+
 	h3 {
 		font-size: 1.2em;
 	}
 
 }
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 	.logo {
 		width: 70%;
 	}
