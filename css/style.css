@@ -98,22 +98,44 @@ h6.status {
 }
 .large {width:100%;}
 
-.speakers {
+.crosstrain {
 	background-image: url('../img/speaker-icon.png');
 	background-repeat: no-repeat;
 	padding-left: 65px;
 }
 
-.designers {
-	background-image: url('../img/design-icon.png');
+.powerpacked {
+	background-image: url('../img/bomb-icon.png');
 	background-repeat: no-repeat;
 	padding-left: 35px;
 }
 
-.developers {
-	background-image: url('../img/developer-icon.png');
+.experience {
+	background-image: url('../img/hearts-icon.png');
 	background-repeat: no-repeat;
 	padding-left: 45px;
+}
+
+.workshop {
+	background-image: url('../img/tools-icon.png');
+	background-repeat: no-repeat;
+	padding-left: 45px;
+}
+
+.food {
+	background-image: url('../img/food-icon.png');
+	background-repeat: no-repeat;
+	padding-left: 45px;
+}
+
+.location {
+	background-image: url('../img/leaf-icon.png');
+	background-repeat: no-repeat;
+	padding-left: 45px;
+}
+
+.infoblock {
+	padding-bottom: 2em;
 }
 
 .alt {
