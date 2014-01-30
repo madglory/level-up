@@ -66,11 +66,30 @@ h6.status {
 }
 
 .jumbotron {
+	margin-bottom: -60px;
+	padding-bottom: 50px;
 	background:
 		url('../img/header-border.png') repeat-x,
 		url('../img/bg.png') repeat-x;
 	background-repeat: repeat-x;
 	border-top: 1px solid #000;
+	border-bottom: 50px solid #000;
+}
+	.jumbotron .details {
+		margin: 6px 0;
+		line-height: 2;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #712513;
+		border-top: 1px solid #ce7922;
+		border-bottom: 1px solid #ce7922;
+	}
+
+.down-arrow {
+	text-align: center;
 }
 
 .logo {
@@ -147,8 +166,8 @@ h6.status {
 }
 
 div.signup {
-	background-image: url('../img/bg.png');
-	background-position: center;
+	background-image: url('../img/signup-bg.jpg');
+	background-position: top center;
 	background-repeat: repeat-x;
 	background-color: #e8e8e7;
 	border-color: #eaeaea;
@@ -156,6 +175,14 @@ div.signup {
 	border-top: 1px solid #a7a5a6;;
 	border-bottom: 1px solid #a7a5a6;
 }
+	div.signup .dates a {
+		color: #56190b;
+	}
+	div.signup .dates p {
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+	}
 
 .info {
 	margin-top: 90px;
@@ -217,14 +244,16 @@ div.footer {
 }
 
 div.address {
-	margin-top: 70px;
+	margin-top: 100px;
 	text-align: center;
 }
 
 div.address p {
-	background-color: #eaeaea;
-	padding: 1.5em 0 2em 0;
+	font-weight: bold;
 }
+	div.address a {
+		color: #bb4c26;
+	}
 
 div.address p span {
 	color: #bb4c26;
@@ -234,10 +263,6 @@ div.address p span {
 
 div.address p span:hover {
 	color: #e37c0d;
-}
-
-.pinpoint {
-	margin-top: -2.5em;
 }
 
 /*======= MEDIA QUERIES ========/
