@@ -34,7 +34,7 @@ p {
 	font-size: large;
 }
 
-p.lead {font-size: larger;}
+p.lead {font-size: larger; text-align: center;}
 p.medium {font-size: medium;margin-top: 20px;}
 a {color: #c6761a;}
 a:hover {color: #eda620;}
@@ -72,16 +72,17 @@ h6.status {
 		url('../img/header-border.png') repeat-x,
 		url('../img/bg.png') repeat-x;
 	background-repeat: repeat-x;
-	border-top: 1px solid #000;
-	border-bottom: 50px solid #000;
+	border-top: 1px solid #231f20;
+
 }
 	.jumbotron .details {
-		margin: 6px 0;
+		font-family: 'Raleway', sans-serif;
+		margin: 11px 0;
 		line-height: 2;
-		font-size: 20px;
+		font-size: 1em;
 		font-weight: bold;
 		text-align: center;
-		letter-spacing: 2px;
+		letter-spacing: 0;
 		text-transform: uppercase;
 		color: #712513;
 		border-top: 1px solid #ce7922;
@@ -90,6 +91,13 @@ h6.status {
 
 .down-arrow {
 	text-align: center;
+	background-color: #231f20;
+	height: 50px;
+	margin-top: 50px;
+}
+
+.down-arrow img {
+	margin-top: -10px;
 }
 
 .logo {
@@ -103,7 +111,16 @@ h6.status {
 /*======= CONTENT STYLES ========/
 /==============================*/
 
-.callout {padding-top: 20px;}
+.intro {
+	background-image: url('../img/tree-bg.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	min-height: 360px; 
+	background-color: #efefef;
+	border-bottom: 1px solid #dddcdc;
+	margin-bottom: 60px;
+}
+.callout {padding-top: 100px;}
 .button.signup {
 	background-color: #d9a233;
 	border-radius: 3px;
