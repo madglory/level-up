@@ -183,6 +183,22 @@ div.signup {
 		font-weight: bold;
 		text-align: center;
 	}
+	.date {
+		width: 140px;
+		height: 137px;
+		color: #fff;
+		text-transform: uppercase;
+		background: transparent url(../img/date-bg.png) no-repeat 0 0;
+	}
+		div.signup .dates .date p {
+			margin: 0;
+			font-size: 20px;
+			
+		}
+		div.signup .dates .date p.day {
+			font-size: 70px;
+			line-height: 1;
+		}
 
 .info {
 	margin-top: 90px;
