@@ -76,7 +76,7 @@ h6.status {
 
 }
 	.jumbotron .details {
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		margin: 11px 0;
 		line-height: 2;
 		font-size: 1em;
@@ -310,12 +310,22 @@ div.address p span:hover {
 		font-size: 1.2em;
 	}
 
+	.jumbotron .details {
+		border-top: none;
+		border-bottom: none;
+		margin: 0;
+	}
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 	.logo {
 		width: 70%;
 	}
+	.jumbotron .details {
+		border-top: none;
+		border-bottom: none;
+		margin: 0;
+	}ƒ
 }
 
 
