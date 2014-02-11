@@ -77,7 +77,7 @@ h6.status {
 }
 	.jumbotron .details {
 		font-family: 'Open Sans', sans-serif;
-		margin: 11px 0;
+		margin-bottom: 10px;
 		line-height: 2;
 		font-size: 1em;
 		font-weight: bold;
@@ -201,8 +201,8 @@ div.signup {
 		text-align: center;
 	}
 	.date {
-		width: 140px;
-		height: 137px;
+		min-height-width: 140px;
+		min-height: 137px;
 		color: #fff;
 		text-transform: uppercase;
 		background: transparent url(../img/date-bg.png) no-repeat 0 0;
@@ -230,6 +230,16 @@ input[type="text"] {
 	border-color: #666666;
 	font-size: large;
 	color: #8a8a8a;
+}
+
+
+/*=== CONF0RMATION STYLES ======/
+/==============================*/
+
+.success {
+	margin: 0 auto;
+	display: block;
+	padding-top: 60px;
 }
 
 /*======= EVENT DETAILS ========/
@@ -310,32 +320,24 @@ div.address p span:hover {
 		font-size: 1.2em;
 	}
 
-	.jumbotron .details {
+	.details {
 		border-top: none;
 		border-bottom: none;
 		margin: 0;
+		
 	}
+	.button.signup {
+		width: 90%;
+		margin-left: 15px;
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 	.logo {
 		width: 70%;
 	}
-	.jumbotron .details {
+	.details {
+		margin: 0;
 		border-top: none;
 		border-bottom: none;
-		margin: 0;
-	}ƒ
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
