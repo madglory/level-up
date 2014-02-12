@@ -345,6 +345,10 @@ div.address p span:hover {
 		width: 90%;
 		left: inherit; 
 	}
+	.callout {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
