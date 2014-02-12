@@ -328,9 +328,22 @@ div.address p span:hover {
 		margin: 0;
 	}
 
+	div.signup {
+		background-image:none;
+	}
+
+	.info {
+		margin-top:20px;
+	}
+
 	.button.signup {
+		width: 100%;
+	}
+
+	.reveal-modal.small {
+    	margin-left: 5%;
 		width: 90%;
-		margin-left: 15px;
+		left: inherit; 
 	}
 }
 
@@ -344,5 +357,10 @@ div.address p span:hover {
 		margin: 0;
 		border-top: none;
 		border-bottom: none;
+	}
+	.reveal-modal.small {
+    	margin-left: 5%;
+		width: 90%;
+		left: inherit; 
 	}
 }
