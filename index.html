@@ -299,7 +299,7 @@
           var posts = res.data;
 
           if(posts.length > 0){
-            $('.feed .status').html(posts[0].text + ' - <a href="http://twitter.com/levelupcon">@levelupcon</a>');
+            $('.feed .status').html(posts[0].html + ' - <a href="http://twitter.com/levelupcon">@levelupcon</a>');
           }
         });
       });
