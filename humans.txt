@@ -1,0 +1,27 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Brian Corrigan  -- Member & President -- @genexp
+    Mubashar Iqbal  -- Member -- @mubashariqbal
+    Seth Louey      -- Member -- @sethlouey
+    Blain Smith     -- Member -- @blainsmith
+    Erik Straub     -- Member -- @brickattack
+    Brennan Frydl   -- Member --
+    Kirk Becker     -- Member -- @infinidude
+    Clarke Foley    -- Member -- @clarkefoley
+    Tom Quackenbush -- Member -- @tquackenbush
+    Clay Forbes     -- Member --
+    Josh Cookfair   -- Member -- @cookfair
+    Richard Hall    -- Member --
+
+
+# THANKS
+
+    Our wonderful customers!
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
