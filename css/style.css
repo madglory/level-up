@@ -225,6 +225,12 @@ div.signup {
 /*======== FORM STYLES =========/
 /==============================*/
 
+label.title {
+	font-size: medium;
+	font-weight: 500;
+	padding-top: 15px;
+}
+
 input[type="text"] {
 	border-radius: 3px;
 	padding: 1.5rem;
@@ -233,6 +239,14 @@ input[type="text"] {
 	color: #8a8a8a;
 }
 
+textarea[type="text"] {
+	border-radius: 3px;
+	padding-left: 1.5rem;
+	border-color: #666666;
+	font-size: large;
+	color: #8a8a8a;
+	min-height: 80px;
+}
 
 /*=== CONF0RMATION STYLES ======/
 /==============================*/
