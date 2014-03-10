@@ -2,6 +2,7 @@ level-up
 ========
 
 Level Up Static Site
+[![Parleychat Room](http://www.parleychat.com/madgloryint/level-up/badge.png)](http://www.parleychat.com/madgloryint/level-up)
 
 ## Running Locally
 
