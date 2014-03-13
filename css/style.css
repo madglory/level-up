@@ -5,6 +5,22 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 }
 
+.headerImage{
+	background: url('../img/header-border.png') repeat;
+	height: 30px;
+}
+
+.fullBackground{
+	background-image: url('../img/bg.png');
+	background-repeat:repeat;
+}
+
+.fillHeight{
+	height: 100%;
+    max-height:100%;
+    overflow: auto;
+}
+
 h3 {
 	font-size: 1.750em;
 	font-weight: 500;
@@ -70,7 +86,7 @@ h6.status {
 	padding-bottom: 50px;
 	background:
 		url('../img/header-border.png') repeat-x,
-		url('../img/bg.png') repeat-x;
+		url('../img/bg.png') repeat;
 	background-repeat: repeat-x;
 	border-top: 1px solid #231f20;
 
