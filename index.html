@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<!--use modernizer to import-->
+<!--TODO - use modernizer to import-->
 <script src="/js/jquery.js"></script>
 <script src="/js/app.js" type="text/javascript" charset="utf-8"></script>
 
@@ -29,9 +29,11 @@ title: Home
       <div class="row">
 
         <!-- Do not change the name="BLAH" attributes, they are used by WuFoo -->
-
+        <label class="input-label">Full Name*</label>
         <input type="text" name="Field12" placeholder="Full Name*" class="large" />
+        <label class="input-label">Company Website</label>
         <input type="text" name="Field3" placeholder="Company Website" class="large" />
+        <label class="input-label">Email*</label>
         <input type="text" name="Field4" placeholder="Email*" class="large" />
         <button type="submit" class="large button signup">Submit</button>
       </div>
@@ -58,18 +60,18 @@ title: Home
       <div class="row">
 
         <!-- Do not change the name="BLAH" attributes, they are used by WuFoo -->
-        <label>Your Name*
+        <label class="input-label">Your Name*</label>
           <input type="text" name="Field12" placeholder="Your Name*" class="large"></input>
-        </label>
-          <label>Your Email*
+        
+          <label class="input-label">Your Email*</label>
         <input type="text" name="Field4" placeholder="Your Email*" class="large"></input>
-          </label>
-        <label>Company Name
+          
+        <label class="input-label">Company Name</label>
           <input type="text" name="Field16" placeholder="Company Name" class="large"></input>
-        </label>
-        <label>Website
+        
+        <label class="input-label">Website</label>
           <input type="text" name="Field3" placeholder="Website" class="large"></input>
-        </label>
+        
         <button type="submit" class="large button signup alt">Submit</button>
       </div>
     </form>
