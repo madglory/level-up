@@ -87,7 +87,6 @@ h6.status {
 	background:
 		url('../img/header-border.png') repeat-x,
 		url('../img/bg.png') repeat;
-	background-repeat: repeat-x;
 	border-top: 1px solid #231f20;
 
 }
@@ -124,6 +123,12 @@ h6.status {
 	padding-bottom: 50px;
 	width: 50%;
 }
+
+	.standard-layout .logo {
+		padding-top: 50px;
+		padding-bottom: 0;
+		width: 40%;
+	}
 
 /*======= CONTENT STYLES ========/
 /==============================*/
