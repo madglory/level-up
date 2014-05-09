@@ -1,8 +1,9 @@
 $(document).ready(function() {
-    var isIE = detectIE();
-    if(!isIE){
+    var userBrowser = BrowserDetect();
+    console.log(BrowserDetect());
+    if(userBrowser != 'MSIE' && userBrowser != 'Firefox'){
         $('.input-label').hide();
-        console.log('user not in IE, hiding labels');
+        console.log('user in webkit based browser, hiding labels');
     }
     else{
         //they are already visible, so why show them
@@ -10,22 +11,27 @@ $(document).ready(function() {
     }
 });
 
-/**
- * Detects if user is in IE
- * @return {boolean} true/false
- */
-function detectIE() {
-    var ua = window.navigator.userAgent;
-    var msie = ua.indexOf('MSIE ');
-    var trident = ua.indexOf('Trident/');
-
-    if (msie > 0) {
-        return true;
+function BrowserDetect() {
+                
+    //Check if browser is IE or not
+    if (navigator.userAgent.search("MSIE") >= 0) {
+        return 'MSIE';
     }
-    if (trident > 0) {
-        return true;
+    //Check if browser is Chrome or not
+    else if (navigator.userAgent.search("Chrome") >= 0) {
+        return 'Chrome';
     }
-    // other browser
-    return false;
+    //Check if browser is Firefox or not
+    else if (navigator.userAgent.search("Firefox") >= 0) {
+        return 'Firefox';
+    }
+    //Check if browser is Safari or not
+    else if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
+        return 'Safari';
+    }
+    //Check if browser is Opera or not
+    else if (navigator.userAgent.search("Opera") >= 0) {
+        return 'Opera';
+    }
 }
 
