@@ -533,6 +533,9 @@ figcaption.sponsor-title {
 	margin: auto;
 	position: relative;
 }
+.blank {
+	background-color: #eee !important;
+}
  
 .sponsor .avatar img {
 /*	border-radius: 50%;*/
