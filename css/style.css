@@ -167,6 +167,12 @@ h6.status {
 .button.signup:hover{
 	background-color: #eda620;
 }
+.button-center { 
+	display: block;
+	margin: 0 auto;
+	width: 220px;
+	margin-bottom: 50px;
+}
 .large {width:100%;}
 
 .crosstrain {
@@ -368,7 +374,7 @@ div.address p span:hover {
 .speaker-section h2 {
 	font-family: 'arvil_sansregular', sans-serif;
 	text-align: center;
-	padding: 30px 0;
+	padding: 30px 0 5px;
 	font-size: 72px;
 }
 
@@ -468,6 +474,117 @@ figcaption.speaker-title {
 	padding-right: 20px;
 }
 
+
+/*======= SPONSOR STYLES =======/
+/==============================*/
+
+.sponsor-section {
+	border-top: 15px solid #cc822a;
+}
+
+.sponsor-section h2 {
+	font-family: 'arvil_sansregular', sans-serif;
+	text-align: center;
+	padding: 30px 0;
+	font-size: 72px;
+}
+
+.sponsor-section h4 {
+	text-align: center;
+	padding-bottom: 30px;
+	margin-top: -30px;
+}
+
+figure {
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+}
+
+figcaption {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+figcaption.sponsor-title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 13px;
+	letter-spacing: 0;
+	color: #979797;
+	font-style: italic;
+	text-transform: none;
+	text-align: center;
+}
+
+.sponsor {
+	position: relative;
+}
+
+.sponsor .avatar {
+	background-color: #000;
+	width: 224px;
+	height: 100px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	margin: auto;
+	position: relative;
+}
+ 
+.sponsor .avatar img {
+/*	border-radius: 50%;*/
+
+}
+
+.sponsor:hover .avatar img {
+	opacity: .4;
+	 -webkit-transition: all 0.5s ease;
+	 -moz-transition: all 0.5s ease;
+	 -o-transition: all 0.5s ease;
+	 transition: all 0.5s ease;
+}
+
+.sponsor:hover .sponsor-links {
+	display: block;
+}
+
+.sponsor-links {
+	position: absolute;
+	display: none;
+	z-index: 100;
+	top: 38px;
+	left: 46px;
+}
+
+.twitter-icon {
+	background: transparent url(../img/twitter-icon.png) no-repeat 0 0;
+	width: 31px;
+	display: block;
+	text-indent: -9999px;
+	height: 25px;
+	float: left;
+}
+
+.link-icon {
+	background: transparent url(../img/link-icon.png) no-repeat 0 0;
+	width: 30px;
+	display: block;
+	text-indent: -9999px;
+	height: 30px;
+	float: right;
+}
+
+.lu-icon {
+	opacity: 1 !important;
+	background-color: inherit !important;
+	margin-top: -16px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
 /*======= SPONSOR STYLES =======/
 /==============================*/
