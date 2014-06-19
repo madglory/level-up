@@ -562,6 +562,11 @@ figcaption.sponsor-title {
 	left: 46px;
 }
 
+.none {
+
+	left: 76px;
+}
+
 .twitter-icon {
 	background: transparent url(../img/twitter-icon.png) no-repeat 0 0;
 	width: 31px;
