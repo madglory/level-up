@@ -6,8 +6,8 @@ $(document).ready(function() {
     var $anchor = $("a[name='"+ name +"']");
     var offset = $(document).scrollTop() == 0 ? 150 : 75;
     $body.animate({scrollTop: ($anchor.offset().top - offset)},'slow');
-  }
-  $("#main-navigation a").click(function(e) {
+  };
+  $("#nav a").click(function(e) {
     e.preventDefault();
     var href = $(this).attr('href').replace('#', '');
     scrollToAnchor(href);
