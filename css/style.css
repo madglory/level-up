@@ -73,6 +73,104 @@ a:hover {color: #eda620;}
 .indent {display: none;}
 hr{margin: 2em;}
 
+/*======= NAV STYLES ========/
+/==============================*/
+
+.top-bar-section ul.center {
+	margin:0 auto;
+	display: inline-block;
+}
+
+.top-bar .name h1 {
+	line-height: 75px;
+	margin: 0;
+	text-indent: -9999px;
+}
+
+.sm-logo {
+	width: 100px;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: 40px;
+}
+
+.top-bar {
+	background: #fff;
+	height: 75px;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+.top-bar ul {
+	height: 75px;
+	background: none;
+}
+
+.top-bar ul.reg {
+	padding: 0 40px;
+}
+
+.top-bar ul li {
+/*	height: 75px;*/
+}
+
+.top-bar-section ul li > a {
+	background: none;
+	color: #757575;
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+.top-bar-section ul li.register {
+	background: #d9a233;
+	color: white;
+	font-weight: 500;
+	height: 75px;
+	width: 150px;
+}
+
+.top-bar-section ul li.register:hover {
+	background: #eda620;
+}
+
+.top-bar-section ul li.register > a {
+	text-align: center;
+	color: white;
+	font-weight: 500;
+}
+
+.top-bar-section ul li.register:hover > a {
+	color: #fff;
+}
+
+.top-bar-section ul li:hover > a {
+	background: none;
+	color: #712513;
+}
+
+.top-bar-section li a:not(.button) {
+	padding: 0 15px;
+	line-height: 45px;
+	background: none;
+}
+
+.top-bar-section li a:not(.button):hover {
+	background: none;
+	color: #712513;
+}
+
+.top-bar-section li.register a:not(.button):hover {
+	background: none;
+	color: #fff;
+}
+
+.top-bar.expanded .title-area {
+	background: #fff;
+}
+
+.top-bar .toggle-topbar.menu-icon a span {
+-webkit-box-shadow: 0 10px 0 1px gray, 0 16px 0 1px gray, 0 22px 0 1px gray;
+box-shadow: 0 10px 0 1px gray, 0 16px 0 1px gray, 0 22px 0 1px gray;
+}
 /*======= HEADER STYLES ========/
 /==============================*/
 
@@ -442,7 +540,7 @@ figcaption.speaker-title {
 .speaker-links {
 	position: absolute;
 	display: none;
-	z-index: 100;
+	z-index: 1;
 	top: 90px;
 	left: 35px;
 }

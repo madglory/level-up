@@ -9,7 +9,17 @@ $(document).ready(function() {
         //they are already visible, so why show them
         console.log('user in IE, showing labels');
     }
-});
+    // Scrolling Navigation
+    // --------------------------------
+    if($('.is-scroller-link').length) {
+      $('.top-bar').singlePageNav({
+        filter: '.is-scroller-link',
+        updateHash: true,
+        currentClass: 'active',
+        offset: 60
+      });
+    }
+}); 
 
 function BrowserDetect() {
                 
