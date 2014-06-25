@@ -118,6 +118,23 @@ h6.status {
 		border-bottom: 1px solid #ce7922;
 	}
 
+#nav {
+	height: 75px;
+	border-bottom: 1px solid #333;
+}
+
+.button.register {
+	background-color: #d9a233;
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-size: 1em;
+	padding: 1rem;
+	text-transform: uppercase;
+}
+.button.register:hover{
+	background-color: #eda620;
+}
+
 .down-arrow {
 	text-align: center;
 	background-color: #cc822a;
@@ -150,7 +167,7 @@ h6.status {
 	background-image: url('../img/tree-bg.png');
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	min-height: 400px; 
+	min-height: 400px;
 	background-color: #efefef;
 	border-bottom: 1px solid #dddcdc;
 	margin-bottom: 60px;
@@ -167,7 +184,7 @@ h6.status {
 .button.signup:hover{
 	background-color: #eda620;
 }
-.button-center { 
+.button-center {
 	display: block;
 	margin: 0 auto;
 	width: 220px;
@@ -251,7 +268,7 @@ div.signup {
 		div.signup .dates .date p {
 			margin: 0;
 			font-size: 20px;
-			
+
 		}
 		div.signup .dates .date p.day {
 			font-size: 70px;
@@ -421,7 +438,7 @@ figcaption.speaker-title {
 	margin: auto;
 	position: relative;
 }
- 
+
 .speaker .avatar img {
 	border-radius: 50%;
 
@@ -536,7 +553,7 @@ figcaption.sponsor-title {
 .blank {
 	background-color: #eee !important;
 }
- 
+
 .sponsor .avatar img {
 /*	border-radius: 50%;*/
 
@@ -601,7 +618,7 @@ figcaption.sponsor-title {
 	background-color: #000;
 	height: 100px;
 }
- 
+
 .avatar img:hover {
 	opacity: .4;
 	 -webkit-transition: all 0.5s ease;
@@ -640,7 +657,7 @@ figcaption.sponsor-title {
 /==============================*/
 
 @media only screen and (max-width: 40em) {
-	
+
 	.logo {
 		width: 100%;
 	}
@@ -670,16 +687,20 @@ figcaption.sponsor-title {
 	.reveal-modal.small {
     	margin-left: 5%;
 		width: 90%;
-		left: inherit; 
+		left: inherit;
 	}
 	.callout {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
+
+	.button.register {
+		padding: 1rem;
+	}
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-	
+
 	.logo {
 		width: 70%;
 	}
@@ -692,6 +713,6 @@ figcaption.sponsor-title {
 	.reveal-modal.small {
     	margin-left: 5%;
 		width: 90%;
-		left: inherit; 
+		left: inherit;
 	}
 }
