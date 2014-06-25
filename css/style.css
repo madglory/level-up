@@ -121,7 +121,39 @@ h6.status {
 #nav {
 	height: 75px;
 	border-bottom: 1px solid #333;
+	font-family: 'Raleway';
 }
+	.sm-logo {
+		width: 100px;
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+
+	#main-navigation {
+		float: right;
+		line-height: 55px;
+	}
+	#main-navigation dd {
+		font-family: 'Raleway';
+		font-size: 1rem;
+		font-weight: 600;
+		margin-left: 0;
+		margin-right: 1rem;
+	}
+
+	#main-navigation dd a:hover {
+		color: #D9A233;
+	}
+	#main-navigation .active {
+		line-height: 55px;
+	}
+	#main-navigation dd.active a {
+		font-weight: 600;
+		background-color: #D9A233;
+	}
+	#main-navigation dd.active a:hover {
+		color: #ffffff;
+	}
 
 .button.register {
 	background-color: #d9a233;
@@ -339,7 +371,6 @@ div.footer {
 	background-color: #000;
 	font-family: 'Raleway';
 	text-transform: uppercase;
-	font-size: 1em;
 	color: #fff;
 	text-align: center;
 }
@@ -347,6 +378,7 @@ div.footer {
 .subfooter p {
 	margin-bottom: 0;
 	padding: 5px;
+	font-size: 0.8rem;
 }
 
 .subfooter a {
@@ -388,7 +420,7 @@ div.address p span:hover {
 	border-top: 15px solid #cc822a;
 }
 
-.speaker-section h2 {
+#speakers-row h2, #sponsors-row h2, #venue-row h2, #schedule-row h2, #about-row h2  {
 	font-family: 'arvil_sansregular', sans-serif;
 	text-align: center;
 	padding: 30px 0 5px;
@@ -459,7 +491,7 @@ figcaption.speaker-title {
 .speaker-links {
 	position: absolute;
 	display: none;
-	z-index: 100;
+	z-index: 1;
 	top: 90px;
 	left: 35px;
 }
@@ -632,16 +664,16 @@ figcaption.sponsor-title {
 /*======= VENUE SYLES ==========/
 /==============================*/
 
-.venue {
+#venue-wrap {
 	background-image: url('../img/venue-map.jpg');
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-color: #b87526;
 	height: 379px;
-	margin-top: 50px;
+	padding-top: 20px;
 }
 
-.venue h2 {
+#venue-row h2 {
 	color: #fff;
 }
 
@@ -694,8 +726,8 @@ figcaption.sponsor-title {
 		padding-bottom: 50px;
 	}
 
-	.button.register {
-		padding: 1rem;
+	#navigation-register {
+		width:100%;
 	}
 }
 
@@ -714,5 +746,9 @@ figcaption.sponsor-title {
     	margin-left: 5%;
 		width: 90%;
 		left: inherit;
+	}
+
+	.button.register {
+		padding: 1rem 0.3rem;
 	}
 }
