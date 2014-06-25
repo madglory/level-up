@@ -149,10 +149,12 @@ h6.status {
 	}
 	#main-navigation dd.active a {
 		font-weight: 600;
-		background-color: #D9A233;
+		color: #D9A233;
+		background-color: #fff;
+		padding: 0;
 	}
 	#main-navigation dd.active a:hover {
-		color: #ffffff;
+		color: #eda620;
 	}
 
 .button.register {
