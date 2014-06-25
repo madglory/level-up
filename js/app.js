@@ -1,18 +1,33 @@
+$(document).foundation();
+
 $(document).ready(function() {
-    var userBrowser = BrowserDetect();
-    console.log(BrowserDetect());
-    if(userBrowser != 'MSIE' && userBrowser != 'Firefox'){
-        $('.input-label').hide();
-        console.log('user in webkit based browser, hiding labels');
-    }
-    else{
-        //they are already visible, so why show them
-        console.log('user in IE, showing labels');
-    }
+  function scrollToAnchor(name){
+    var $body = $('html,body');
+    var $anchor = $("a[name='"+ name +"']");
+    var offset = $(document).scrollTop() == 0 ? 150 : 75;
+    $body.animate({scrollTop: ($anchor.offset().top - offset)},'slow');
+  }
+  $("#main-navigation a").click(function(e) {
+    e.preventDefault();
+    var href = $(this).attr('href').replace('#', '');
+    scrollToAnchor(href);
+  });
+
+  var userBrowser = BrowserDetect();
+  console.log(BrowserDetect());
+  if(userBrowser != 'MSIE' && userBrowser != 'Firefox'){
+      $('.input-label').hide();
+      console.log('user in webkit based browser, hiding labels');
+  }
+  else{
+      //they are already visible, so why show them
+      console.log('user in IE, showing labels');
+  }
+
 });
 
 function BrowserDetect() {
-                
+
     //Check if browser is IE or not
     if (navigator.userAgent.search("MSIE") >= 0) {
         return 'MSIE';
