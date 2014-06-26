@@ -4,8 +4,10 @@ $(document).ready(function() {
   function scrollToAnchor(name){
     var $body = $('html,body');
     var $anchor = $("a[name='"+ name +"']");
-    var offset = $(document).scrollTop() == 0 ? 150 : 75;
-    $body.animate({scrollTop: ($anchor.offset().top - offset)},'slow');
+    if ($anchor) {
+      var offset = $(document).scrollTop() == 0 ? 150 : 75;
+      $body.animate({scrollTop: ($anchor.offset().top - offset)},'slow');
+    }
   };
   $("#nav a").click(function(e) {
     e.preventDefault();
