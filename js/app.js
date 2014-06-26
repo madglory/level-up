@@ -4,15 +4,15 @@ $(document).ready(function() {
   function scrollToAnchor(name){
     var $body = $('html,body');
     var $anchor = $("a[name='"+ name +"']");
-    if ($anchor) {
-      var offset = $(document).scrollTop() == 0 ? 150 : 75;
-      $body.animate({scrollTop: ($anchor.offset().top - offset)},'slow');
-    }
+    var offset = $(document).scrollTop() == 0 ? 150 : 75;
+    $body.animate({scrollTop: ($anchor.offset().top - offset)},'slow');
   };
   $("#nav a").click(function(e) {
-    e.preventDefault();
-    var href = $(this).attr('href').replace('#', '');
-    scrollToAnchor(href);
+    if (!$(this).hasClass('no-scroll')) {
+      e.preventDefault();
+      var href = $(this).attr('href').replace('#', '');
+      scrollToAnchor(href);
+    }
   });
 
   var userBrowser = BrowserDetect();
