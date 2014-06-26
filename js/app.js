@@ -8,7 +8,7 @@ $(document).ready(function() {
     $body.animate({scrollTop: ($anchor.offset().top - offset)},'slow');
   };
   $("#nav a").click(function(e) {
-    if (!$(this).hasClass('no-scroll')) {
+    if (!$(this).hasClass('noscroll')) {
       e.preventDefault();
       var href = $(this).attr('href').replace('#', '');
       scrollToAnchor(href);
