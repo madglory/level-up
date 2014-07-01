@@ -421,11 +421,13 @@ label.title {
 }
 
 input[type="text"] {
+	color: #8A8A8A;
+	border-color: #666;
 	border-radius: 3px;
-	padding: 1.5rem;
-	border-color: #666666;
-	font-size: large;
-	color: #8a8a8a;
+	padding: 9px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 45px;
 }
 
 textarea[type="text"] {

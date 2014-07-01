@@ -17,7 +17,7 @@ $(document).ready(function() {
 
   var userBrowser = BrowserDetect();
   console.log(BrowserDetect());
-  if(userBrowser != 'MSIE' && userBrowser != 'Firefox'){
+  if(userBrowser != 'MSIE'){
       $('.input-label').hide();
       console.log('user in webkit based browser, hiding labels');
   }
