@@ -629,18 +629,18 @@ figcaption.speaker-title {
 /*======= SPONSOR STYLES =======/
 /==============================*/
 
-.sponsor-section {
+.supporters-section {
 	border-top: 15px solid #cc822a;
 }
 
-.sponsor-section h2 {
+.supporters-section h2 {
 	font-family: 'arvil_sansregular', sans-serif;
 	text-align: center;
 	padding: 30px 0;
 	font-size: 72px;
 }
 
-.sponsor-section h4 {
+.supporters-section h4 {
 	text-align: center;
 	padding-bottom: 30px;
 	margin-top: -30px;
@@ -660,7 +660,7 @@ figcaption {
 	text-align: center;
 }
 
-figcaption.sponsor-title {
+figcaption.supporters-title {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	font-size: 13px;
@@ -671,11 +671,11 @@ figcaption.sponsor-title {
 	text-align: center;
 }
 
-.sponsor {
+.supporters {
 	position: relative;
 }
 
-.sponsor .avatar {
+.supporters .avatar {
 	background-color: #000;
 	width: 224px;
 	height: 100px;
@@ -688,12 +688,12 @@ figcaption.sponsor-title {
 	background-color: #eee !important;
 }
 
-.sponsor .avatar img {
+.supporters .avatar img {
 /*	border-radius: 50%;*/
 
 }
 
-.sponsor:hover .avatar img {
+.supporters:hover .avatar img {
 	opacity: .4;
 	 -webkit-transition: all 0.5s ease;
 	 -moz-transition: all 0.5s ease;
@@ -701,11 +701,11 @@ figcaption.sponsor-title {
 	 transition: all 0.5s ease;
 }
 
-.sponsor:hover .sponsor-links {
-	display: block;
+.supporters:hover .supporters-links {
+	display: block !important;
 }
 
-.sponsor-links {
+.supporters-links {
 	position: absolute;
 	display: none;
 	z-index: 100;
@@ -713,7 +713,7 @@ figcaption.sponsor-title {
 	left: 46px;
 }
 
-.sponsor-logo {
+.supporters-logo {
 	display: block;
 	margin: 0 auto;
 	padding-top: 10px;
@@ -751,10 +751,10 @@ figcaption.sponsor-title {
 	padding-right: 20px;
 }
 
-/*======= SPONSOR STYLES =======/
+/*======= supporters STYLES =======/
 /==============================*/
 /*
-.sponsor {
+.supporters {
 	background-color: #000;
 	height: 100px;
 }
