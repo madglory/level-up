@@ -35,6 +35,11 @@ h1, h2, h3, h4, h5, h6 {
     overflow: auto;
 }
 
+h2 span {
+	color: #712513;
+	font-weight: 500;
+}
+
 h3 {
 	font-size: 1.750em;
 	font-weight: 500;
@@ -63,6 +68,8 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: large;
 }
+
+ul {margin-left: 60px;}
 
 p.lead {font-size: larger; text-align: center;}
 p.medium {font-size: medium;margin-top: 20px;}
