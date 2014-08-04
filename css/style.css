@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 }
 
+h2.schwag {
+	text-align: center;
+}
+
 .headerImage{
 	background: url('../img/header-border.png') repeat;
 	height: 30px;
