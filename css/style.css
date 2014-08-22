@@ -227,6 +227,10 @@ h6.status {
 		border-bottom: 1px solid #ce7922;
 	}
 
+.nav-container{
+	min-height: 75px;
+}
+
 #nav {
 	height: 75px;
 	border-bottom: 1px solid #333;
