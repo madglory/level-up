@@ -824,6 +824,11 @@ figcaption.supporters-title {
 	font-weight: bold;
 	color: #bb4c26;
 }
+.schedule .description {
+	font-size: 0.8em;
+	margin-left: 55px;
+	margin-right: 55px;
+}
 .schedule .section {
 	font-size: .8rem;
 	font-weight: bold;
