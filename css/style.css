@@ -784,6 +784,65 @@ figcaption.supporters-title {
 
 */
 
+/*======= SCHEDULE STYLES =======/
+/==============================*/
+
+.first-day { padding-right: 0; }
+.second-day { padding-left: 0; }
+.schedule {
+	margin: 83px 0 0 0;
+	list-style: none;
+}
+.second-day .schedule {
+	margin: 131px 0 0 0;
+}
+.schedule li {
+	border-top: 1px solid #cacaca;
+}
+.second-day .schedule li {
+	text-align: right;
+}
+.schedule img {
+	float: left;
+	margin: 0 10px 0 0;
+	width: 30px;
+}
+	.schedule .speaker {
+		width: 45px;
+		border-radius: 100px;
+	}
+.second-day .schedule img {
+	float: right;
+	margin: 0 0 0 10px;
+}
+.schedule .time {
+	margin: -52px 0 10px 0;
+	text-align: center;
+}
+
+.schedule .title {
+	font-weight: bold;
+	color: #bb4c26;
+}
+.schedule .section {
+	font-size: .8rem;
+	font-weight: bold;
+	color: #a1a1a1;
+	text-transform: uppercase;
+}
+.schedule-times {
+	width: 100%;
+	margin-top: 75px;
+	position: absolute;
+	text-align: center;
+}
+
+.schedule .slot-90 { padding: 62px 0; }
+.schedule .slot-60 { padding: 38px 0; }
+.schedule .slot-30 { padding: 12px 0; }
+.schedule .slot-60-speaker { padding: 28px 0; }
+.schedule .slot-30-speaker { padding: 2px 0; }
+
 /*======= VENUE SYLES ==========/
 /==============================*/
 
@@ -851,6 +910,25 @@ figcaption.supporters-title {
 
 	#navigation-register {
 		width:100%;
+	}
+
+	.first-day, .second-day {
+		padding: 0;
+	}
+	.schedule {
+		margin: 50px 0 0 0 !important;
+	}
+	.schedule li {
+		padding: 20px 0 80px !important;
+		text-align: center !important;
+	}
+	.schedule img {
+		float: none !important;
+		margin: 0 0 10px 0 !important;
+		width: 50px;
+	}
+	.schedule .speaker {
+		width: 200px;
 	}
 }
 

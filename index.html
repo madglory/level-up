@@ -644,6 +644,59 @@ title: Home
   </div>
 </div>
 
+<div class="row" id="schedule-row">
+  <div class="large-12 columns">
+    <a name="schedule"></a>
+    <h2 data-magellan-destination="schedule">Schedule</h2>
+    
+    <div class="row">
+      <div class="medium-6 columns first-day">
+        <h3>Wednesday</h3>
+
+        <ul class="schedule">
+          {% for slot in site.data.schedule.wednesday %}
+            <li class="slot slot-{{ slot.length }}{% if slot.section %}-speaker{% endif %}">
+              <div class="time show-for-small-only">
+                <img src="/img/times/{{ slot.time }}.png" alt="{{ slot.time }}">
+              </div>
+              
+              <img src="{{ slot.image }}" class="{% if slot.section %}speaker{% else %}icon{% endif %}">
+
+              {% if slot.section %}<div class="section">{{ slot.section }}</div>{% endif %}
+              <div class="title">{{ slot.title }}</div>
+              {% if slot.description %}<div class="description">{{ slot.description }}</div>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="medium-6 columns second-day">
+        <h3>Thursday</h3>
+
+        <ul class="schedule">
+          {% for slot in site.data.schedule.thursday %}
+            <li class="slot slot-{{ slot.length }}{% if slot.section %}-speaker{% endif %}">
+              <div class="time show-for-small-only">
+                <img src="/img/times/{{ slot.time }}.png" alt="{{ slot.time }}">
+              </div>
+
+              <img src="{{ slot.image }}" class="{% if slot.section %}speaker{% else %}icon{% endif %}">
+
+              {% if slot.section %}<div class="section">{{ slot.section }}</div>{% endif %}
+              <div class="title">{{ slot.title }}</div>
+              {% if slot.description %}<div class="description">{{ slot.description }}</div>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="schedule-times hide-for-small-only">
+        <img src="/img/schedule-times.png" />
+      </div>
+    </div>
+
+    <hr>
+  </div>
+</div>
+
 <div class="full-width signup">
   <div class="row">
     <div class="large-12 columns info">
