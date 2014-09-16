@@ -1,0 +1,127 @@
+wednesday:
+  - title: Registraion
+    time: 8am
+    length: 90
+    description:
+    image: http://cdn.jsdelivr.net/emojione/assets/png/1F4DD.png
+  - title: Kick-off Speach
+    section: 
+    time: 930am
+    length: 30
+    description:
+    image: http://cdn.jsdelivr.net/emojione/assets/png/1F3A4.png
+  - title: Kevin Hoffman
+    section: "Ideate: TBA"
+    time: 10am
+    length: 60
+    description:
+    image: /img/kevin-hoffman.jpg
+  - title: Ian Landsman
+    section: "Ideate: TBA"
+    time: 11am
+    length: 60
+    description:
+    image: /img/ian-landsman.png
+  - title: Lunch
+    section: 
+    time: 12pm
+    length: 90
+    description:
+    image: http://cdn.jsdelivr.net/emojione/assets/png/1F374.png
+  - title: Henry Modisett
+    section: "Design: TBA"
+    time: 130pm
+    length: 30
+    description:
+    image: /img/henry-modisett.jpg
+  - title: PJ McCormick
+    section: "Design: The pitfalls of UX @ Amazon"
+    time: 2pm
+    length: 60
+    description:
+    image: /img/pj-mccormick.jpg
+  - title: Coffee Break
+    section: 
+    time: 3pm
+    length: 30
+    description:
+    image: http://cdn.jsdelivr.net/emojione/assets/png/2615.png
+  - title: Jill Spaeth
+    section: "Design: TBA"
+    time: 330pm
+    length: 60
+    description:
+    image: /img/jill-spaeth.jpg
+  - title: Justin Searls
+    section: "Build: Open Source"
+    time: 430pm
+    length: 60
+    description:
+    image: /img/justin-searls.jpg
+  - title: "Gaffney's Patio with Vinyl Night DJ"
+    section: Madrill Sponsored After Party
+    time: 530pm
+    length: 60
+    description: Enjoy good music and good company while you relax at one of Downtown Saratoga's coolest spots.
+    image: /img/mandrill-avatar.png
+thursday:
+  - title: Coffee
+    section: 
+    time: 830am
+    length: 60
+    description:
+    image: http://cdn.jsdelivr.net/emojione/assets/png/2615.png
+  - title: Andres Suarez
+    section: "Build: Server Side JS Rendering"
+    time: 930am
+    length: 60
+    description:
+    image: /img/andres-suarez.jpg
+  - title: Craig Kersteins
+    section: "Build: TBA"
+    time: 1030am
+    length: 60
+    description:
+    image: /img/craig-kersteins.jpg
+  - title: Tiffany Bogich 
+    section: "Build: TBA"
+    time: 1130am
+    length: 30
+    description:
+    image: /img/tiffany-bogich.jpg
+  - title: Lunch
+    section: 
+    time: 12pm
+    length: 90
+    description:
+    image: http://cdn.jsdelivr.net/emojione/assets/png/1F374.png
+  - title: Margot Bloomstein
+    section: "Shipping: Promoting your brand"
+    time: 130pm
+    length: 60
+    description:
+    image: /img/margot-bloomstein.jpg
+  - title: Simon Ouderkirk / Daryl Houston
+    section: "Shipping: Planning for support"
+    time: 230pm
+    length: 60
+    description:
+    image: /img/simon-daryl.jpg
+  - title: Patrick Ambron
+    section: "Shipping: Brand Yourself"
+    time: 330pm
+    length: 30
+    description:
+    image: /img/patrick-ambron.jpg
+  - title: Martin Ringlein
+    section: "Closing Keynote: nvite product launch"
+    time: 4pm
+    length: 60
+    description:
+    image: /img/martin-ringlein.jpg
+  - title: "Harvey's Rooftop"
+    section: WordPress Sponsored After Party
+    time: 5pm
+    length: 60
+    description: With all your spare energy, split from the conference and come close say goodbye to all of your new friends!
+    image: /img/wordpress-avatar.png
