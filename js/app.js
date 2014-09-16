@@ -1,7 +1,7 @@
 $(document).foundation();
 
 $(document).ready(function() {
-  $('#earlybird-offer').foundation('reveal', 'open');
+  //$('#earlybird-offer').foundation('reveal', 'open');
 
   function scrollToAnchor(name){
     var $body = $('html,body');
