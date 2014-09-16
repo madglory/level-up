@@ -72,13 +72,13 @@ thursday:
     description:
     image: http://cdn.jsdelivr.net/emojione/assets/png/2615.png
   - title: Andres Suarez
-    section: "Build: Experiments in server-side rendered single-page apps"
+    section: "Build: Server rendered single-page apps"
     time: 930am
     length: 60
     description:
     image: /img/andres-suarez.jpg
   - title: Craig Kersteins
-    section: "Build: Postgres – a data platform and what it mean's to you"
+    section: "Build: Postgres – A data platform"
     time: 1030am
     length: 60
     description:
@@ -114,7 +114,7 @@ thursday:
     description:
     image: /img/patrick-ambron.jpg
   - title: Martin Ringlein
-    section: "Closing Keynote: Launch Lessons -- From having fun to finding funding"
+    section: "Closing Keynote: Launch Lessons"
     time: 4pm
     length: 60
     description:
