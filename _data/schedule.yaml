@@ -11,7 +11,7 @@ wednesday:
     description:
     image: http://cdn.jsdelivr.net/emojione/assets/png/1F3A4.png
   - title: Kevin Hoffman
-    section: "Ideate: TBA"
+    section: "Ideate: Co-Design Not Redesign"
     time: 10am
     length: 60
     description:
@@ -53,7 +53,7 @@ wednesday:
     description:
     image: /img/jill-spaeth.jpg
   - title: Justin Searls
-    section: "Build: Open Source"
+    section: "Build: The Social Coding Contract"
     time: 430pm
     length: 60
     description:
@@ -78,13 +78,13 @@ thursday:
     description:
     image: /img/andres-suarez.jpg
   - title: Craig Kersteins
-    section: "Build: TBA"
+    section: "Build: Experiments in server-side rendered single-page apps"
     time: 1030am
     length: 60
     description:
     image: /img/craig-kersteins.jpg
   - title: Tiffany Bogich 
-    section: "Build: TBA"
+    section: "Build: Postgres – a data platform and what it mean's to you"
     time: 1130am
     length: 30
     description:
@@ -102,7 +102,7 @@ thursday:
     description:
     image: /img/margot-bloomstein.jpg
   - title: Simon Ouderkirk / Daryl Houston
-    section: "Shipping: Planning for support"
+    section: "Shipping: Developing Hospitality"
     time: 230pm
     length: 60
     description:
@@ -114,7 +114,7 @@ thursday:
     description:
     image: /img/patrick-ambron.jpg
   - title: Martin Ringlein
-    section: "Closing Keynote: nvite product launch"
+    section: "Closing Keynote: Launch Lessons -- From having fun to finding funding"
     time: 4pm
     length: 60
     description:
