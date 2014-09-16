@@ -72,19 +72,19 @@ thursday:
     description:
     image: http://cdn.jsdelivr.net/emojione/assets/png/2615.png
   - title: Andres Suarez
-    section: "Build: Server Side JS Rendering"
+    section: "Build: Experiments in server-side rendered single-page apps"
     time: 930am
     length: 60
     description:
     image: /img/andres-suarez.jpg
   - title: Craig Kersteins
-    section: "Build: Experiments in server-side rendered single-page apps"
+    section: "Build: Postgres – a data platform and what it mean's to you"
     time: 1030am
     length: 60
     description:
     image: /img/craig-kersteins.jpg
   - title: Tiffany Bogich 
-    section: "Build: Postgres – a data platform and what it mean's to you"
+    section: "Build: Standard Analytics"
     time: 1130am
     length: 30
     description:
