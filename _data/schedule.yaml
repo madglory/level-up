@@ -5,7 +5,7 @@ wednesday:
     description:
     image: http://cdn.jsdelivr.net/emojione/assets/png/1F4DD.png
   - title: Kick-off Speech
-    section: 
+    section:
     time: 930am
     length: 30
     description:
@@ -23,7 +23,7 @@ wednesday:
     description:
     image: /img/ian-landsman.png
   - title: Lunch
-    section: 
+    section:
     time: 12pm
     length: 90
     description:
@@ -41,7 +41,7 @@ wednesday:
     description:
     image: /img/pj-mccormick.jpg
   - title: Coffee Break
-    section: 
+    section:
     time: 3pm
     length: 30
     description:
@@ -66,7 +66,7 @@ wednesday:
     image: /img/mandrill-avatar.png
 thursday:
   - title: Coffee
-    section: 
+    section:
     time: 830am
     length: 60
     description:
@@ -83,14 +83,14 @@ thursday:
     length: 60
     description:
     image: /img/craig-kersteins.jpg
-  - title: Tiffany Bogich 
-    section: "Build: Standard Analytics"
+  - title: Matthew Miller
+    section: "Build: Making Your Software Transparent"
     time: 1130am
     length: 30
     description:
-    image: /img/tiffany-bogich.jpg
+    image: /img/matthew-miller.jpg
   - title: Lunch
-    section: 
+    section:
     time: 12pm
     length: 90
     description:
