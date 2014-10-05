@@ -52,12 +52,12 @@ wednesday:
     length: 60
     description:
     image: /img/jill-spaeth.jpg
-  - title: Justin Searls
-    section: "Build: The Social Coding Contract"
+  - title: Andres Suarez
+    section: "Build: Server Rendered Single-Page Apps"
     time: 430pm
     length: 60
     description:
-    image: /img/justin-searls.jpg
+    image: /img/Andres-Suarez.jpg
   - title: "Gaffney's Patio with Vinyl Night DJ"
     section: Mandrill Sponsored After Party
     time: 530pm
@@ -71,12 +71,12 @@ thursday:
     length: 60
     description:
     image: http://cdn.jsdelivr.net/emojione/assets/png/2615.png
-  - title: Andres Suarez
-    section: "Build: Server rendered single-page apps"
+  - title: Justin Searls
+    section: "Build: The Social Coding Contract"
     time: 930am
     length: 60
     description:
-    image: /img/andres-suarez.jpg
+    image: /img/justin-searls.jpg
   - title: Craig Kersteins
     section: "Build: Postgres – A data platform"
     time: 1030am
