@@ -7,25 +7,25 @@ wednesday:
   - title: Kick-off Speech 9:30 AM
     section:
     time: 930am
-    length: 30
+    length: 10
     description:
     image: http://cdn.jsdelivr.net/emojione/assets/png/1F3A4.png
   - title: Kevin Hoffman
     section: "Ideate: Co-Design Not Redesign"
     time: 10am
-    length: 45
+    length: 50
     description:
     image: /img/kevin-hoffman.jpg
   - title: Ian Landsman
     section: "Ideate: Ideas are Work"
     time: 945am
-    length: 45
+    length: 50
     description:
     image: /img/ian-landsman.png
   - title: Mitchell Patterson
     section: "Ideate: Raising Seed Capital"
     time: 1030am
-    length: 45
+    length: 50
     description:
     image: /img/mitchell-patterson.png
   - title: Lunch Noon-1:25 PM
