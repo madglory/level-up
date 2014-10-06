@@ -71,6 +71,12 @@ thursday:
     length: 60
     description:
     image: http://cdn.jsdelivr.net/emojione/assets/png/2615.png
+  - title: Kick-off Speech 9:15 AM
+    section: Kenneth Adams 
+    time: 915am
+    length: 10
+    description:
+    image: http://cdn.jsdelivr.net/emojione/assets/png/1F3A4.png
   - title: Justin Searls
     section: "Build: The Social Coding Contract"
     time: 930am
@@ -107,6 +113,12 @@ thursday:
     length: 60
     description:
     image: /img/simon-daryl.jpg
+  - title: Coffee Break 3:10-3:30 PM
+    section:
+    time: 310pm
+    length: 30
+    description:
+    image: http://cdn.jsdelivr.net/emojione/assets/png/2615.png
   - title: Sabrina Clark
     section: "Shipping: How We Got 60K Users in 60 Hrs"
     time: 330pm
