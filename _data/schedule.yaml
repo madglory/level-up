@@ -12,7 +12,7 @@ wednesday:
     image: http://cdn.jsdelivr.net/emojione/assets/png/1F3A4.png
   - title: Kevin Hoffman
     section: "Ideate: Co-Design Not Redesign"
-    time: 10am
+    time: 9:45am
     length: 60
     description:
     image: /img/kevin-hoffman.jpg
@@ -73,7 +73,7 @@ wednesday:
 thursday:
   - title: Coffee 8:00-9:15
     section:
-    time: 830am
+    time: 800am
     length: 60
     description:
     image: http://cdn.jsdelivr.net/emojione/assets/png/2615.png
