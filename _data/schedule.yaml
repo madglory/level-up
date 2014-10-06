@@ -82,7 +82,7 @@ thursday:
     time: 915am
     length: 10
     description:
-    image: http://cdn.jsdelivr.net/emojione/assets/png/1F3A4.png
+    image: /img/kenneth-adams.png
   - title: Justin Searls
     section: "Build: The Social Coding Contract"
     time: 930am
