@@ -1,10 +1,10 @@
 wednesday:
-  - title: Registration
+  - title: Registration 8AM-9:30
     time: 8am
     length: 90
     description:
     image: http://cdn.jsdelivr.net/emojione/assets/png/1F4DD.png
-  - title: Kick-off Speech
+  - title: Kick-off Speech 9:30 AM
     section:
     time: 930am
     length: 30
@@ -22,7 +22,7 @@ wednesday:
     length: 60
     description:
     image: /img/ian-landsman.png
-  - title: Lunch
+  - title: Lunch 12 - 1:20PM
     section:
     time: 12pm
     length: 90
@@ -40,7 +40,7 @@ wednesday:
     length: 60
     description:
     image: /img/pj-mccormick.jpg
-  - title: Coffee Break
+  - title: Coffee Break 3:10-3:30
     section:
     time: 3pm
     length: 30
@@ -59,13 +59,13 @@ wednesday:
     description:
     image: /img/andres-suarez.jpg
   - title: "Gaffney's Patio with Vinyl Night DJ"
-    section: Mandrill Sponsored After Party
+    section: Mandrill Sponsored After Party 6 - 9:30 PM
     time: 530pm
     length: 60
     description: Enjoy good music and good company while you relax at one of Downtown Saratoga's coolest spots.
     image: /img/mandrill-avatar.png
 thursday:
-  - title: Coffee
+  - title: Coffee 8:00-9:15
     section:
     time: 830am
     length: 60
@@ -89,7 +89,7 @@ thursday:
     length: 30
     description:
     image: /img/matthew-miller.jpg
-  - title: Lunch
+  - title: Lunch 12 - 1:20 PM
     section:
     time: 12pm
     length: 90
@@ -120,7 +120,7 @@ thursday:
     description:
     image: /img/martin-ringlein.jpg
   - title: "Harvey's Rooftop"
-    section: WordPress Sponsored After Party
+    section: WordPress Sponsored After Party 6PM
     time: 5pm
     length: 60
     description: With all your spare energy, split from the conference and come say goodbye to all of your new friends!
