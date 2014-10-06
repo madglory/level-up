@@ -27,6 +27,7 @@ wednesday:
     time: 1030am
     length: 45
     description:
+    image: /img/mitchell-patterson.png
   - title: Lunch Noon-1:25 PM
     section:
     time: 12pm
