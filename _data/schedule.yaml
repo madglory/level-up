@@ -13,15 +13,20 @@ wednesday:
   - title: Kevin Hoffman
     section: "Ideate: Co-Design Not Redesign"
     time: 10am
-    length: 60
+    length: 45
     description:
     image: /img/kevin-hoffman.jpg
   - title: Ian Landsman
     section: "Ideate: Ideas are Work"
-    time: 11am
-    length: 60
+    time: 945am
+    length: 45
     description:
     image: /img/ian-landsman.png
+  - title: Mitchell Patterson
+    section: "Ideate: Raising Seed Capital"
+    time: 1030am
+    length: 45
+    description:
   - title: Lunch Noon-1:25 PM
     section:
     time: 12pm
