@@ -64,7 +64,7 @@ wednesday:
     length: 60
     description:
     image: /img/andres-suarez.jpg
-  - title: "6PM Gaffney's Patio with Vinyl Night DJ"
+  - title: "6:00 PM Gaffney's Patio with Vinyl Night DJ"
     section: Mandrill Sponsored After Party 
     time: 530pm
     length: 60
@@ -137,8 +137,8 @@ thursday:
     length: 60
     description:
     image: /img/martin-ringlein.jpg
-  - title: "Harvey's Rooftop"
-    section: WordPress Sponsored After Party 6PM
+  - title: "6:00 PM Harvey's Rooftop"
+    section: WordPress Sponsored After Party
     time: 5pm
     length: 60
     description: With all your spare energy, split from the conference and come say goodbye to all of your new friends!
