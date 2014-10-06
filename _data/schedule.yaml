@@ -1,5 +1,5 @@
 wednesday:
-  - title: Registration 8AM-9:30
+  - title: Registration 8:00-9:30 AM
     time: 8am
     length: 90
     description:
@@ -22,7 +22,7 @@ wednesday:
     length: 60
     description:
     image: /img/ian-landsman.png
-  - title: Lunch 12 - 1:20PM
+  - title: Lunch Noon-1:25 PM
     section:
     time: 12pm
     length: 90
@@ -40,7 +40,7 @@ wednesday:
     length: 60
     description:
     image: /img/pj-mccormick.jpg
-  - title: Coffee Break 3:10-3:30
+  - title: Coffee Break 3:10-3:30 PM
     section:
     time: 3pm
     length: 30
@@ -58,8 +58,8 @@ wednesday:
     length: 60
     description:
     image: /img/andres-suarez.jpg
-  - title: "Gaffney's Patio with Vinyl Night DJ"
-    section: Mandrill Sponsored After Party 6 - 9:30 PM
+  - title: "6PM Gaffney's Patio with Vinyl Night DJ"
+    section: Mandrill Sponsored After Party 
     time: 530pm
     length: 60
     description: Enjoy good music and good company while you relax at one of Downtown Saratoga's coolest spots.
@@ -89,7 +89,7 @@ thursday:
     length: 30
     description:
     image: /img/matthew-miller.jpg
-  - title: Lunch 12 - 1:20 PM
+  - title: Lunch Noon-1:25 PM
     section:
     time: 12pm
     length: 90
